@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <div className="">
+      <div className="font-jura">
         <Navbar />
       </div>
     </>
