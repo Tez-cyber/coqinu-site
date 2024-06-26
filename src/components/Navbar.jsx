@@ -19,7 +19,7 @@ const Navbar = () => {
                         <div className="translate-y-12 pr-20">
                             <img src={logo} className='w-[150px] h-[150px] border-[3px] border-white rounded-full' alt="" />
                         </div>
-                        <div className="flex gap-[270px]">
+                        <div className="flex items-center gap-[270px]">
                             <div className="uppercase flex gap-5 text-lg text-white font-bold ">
                                 <a href="" className="">how to buy</a>
                                 <a href="" className="">ecosystem</a>
@@ -27,8 +27,8 @@ const Navbar = () => {
                                 <a href="" className="">memes</a>
                                 <a href="" className="">merch</a>
                             </div>
-                            <div className="">
-                                <a href="">buy now</a>
+                            <div className="bg-white py-3 px-7 uppercase font-bold">
+                                <a href="" className=''>buy now</a>
                             </div>
                         </div>
                     </div>
