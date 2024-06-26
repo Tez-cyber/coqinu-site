@@ -10,7 +10,7 @@ export default {
         mainColor: '#e84142'
       },
       width: {
-        contain: '1400px'
+        contain: '1200px'
       },
     },
   },
