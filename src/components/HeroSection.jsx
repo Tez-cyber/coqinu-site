@@ -6,13 +6,13 @@ const HeroSection = () => {
         <div className='text-mainColor py-10 lg:w-contain lg:mx-auto lg:py-20'>
             {/* ===== First section ===== */}
             <div className="flex gap-3">
-                <div className="my-10 mx-4 lg:w-[75%]">
+                <div className="my-10 mx-4 lg:w-[75%] lg:mx-0">
                     <div className="flex items-end py-5 px-5  bg-[#f7e18b] ">
-                        <h2 className="text-3xl uppercase leading-relaxed lg:text-6xl">
+                        <h2 className="text-3xl uppercase leading-loose lg:text-6xl">
                             life is <span className='font-bold'>better</span> when you have some
                             <span className='font-bold pl-2'>coq inu</span>
                         </h2>
-                        <img src={avalanche} className='w-[40px] h-[40px] translate-x-[-60px] lg:w-[50px] lg:h-[50px]  lg:translate-x-[-120px] lg:translate-y-[-20px]' alt="" />
+                        <img src={avalanche} className='w-[50px] h-[50px] translate-x-[-60px] lg:w-[50px] lg:h-[50px]  lg:translate-x-[-120px] lg:translate-y-[-7px]' alt="" />
                     </div>
 
                     <p className="text-xl leading-relaxed text-justify pt-5 lg:text-3xl ">
