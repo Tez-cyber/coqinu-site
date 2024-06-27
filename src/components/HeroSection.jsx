@@ -1,12 +1,18 @@
 import Hero from '../assets/hero.png'
+import twitter from '../assets/X.png'
+import telegram from '../assets/tg.png'
+import dex from '../assets/dexscreen.png'
+import coinmarket from '../assets/coinmarket.png'
+import coingecko from '../assets/coingecko.png'
+import snowrace from '../assets/snowrace.png'
 import avalanche from '../assets/avalanchelogo.png'
 
 const HeroSection = () => {
     return (
-        <div className='text-mainColor py-10 lg:w-contain lg:mx-auto lg:py-20'>
+        <div className='text-mainColor py-10 px-4 lg:w-contain lg:mx-auto lg:py-20'>
             {/* ===== First section ===== */}
             <div className="flex gap-3">
-                <div className="my-10 mx-4 lg:w-[75%] lg:mx-0">
+                <div className="my-10  lg:w-[75%] lg:mx-0">
                     <div className="flex items-end py-5 px-5  bg-[#f7e18b] ">
                         <h2 className="text-3xl uppercase leading-loose lg:text-6xl">
                             life is <span className='font-bold'>better</span> when you have some
@@ -23,11 +29,18 @@ const HeroSection = () => {
                 </div>
                 {/* === Hero Image === */}
                 <div className="w-1/3 hidden lg:flex">
-                    <img src={Hero} className='w-[80%] h-[80%] ml-5' alt="" />
+                    <img src={Hero} className='w-[90%] h-[90%] ml-10' alt="" />
                 </div>
             </div>
             {/* ===== Icon section ===== */}
-            <div className=""></div>
+            <div className="flex justify-between lg:w-contain lg:mx-auto">
+                <a href="" className="w-[30px] h-[30px]"><img src={twitter} alt="" className="" /></a>
+                <a href="" className="w-[30px] h-[30px]"><img src={telegram} alt="" className="" /></a>
+                <a href="" className="w-[30px] h-[30px] lg:w-[60px] lg:h-[60px]"><img src={dex} alt="" className="" /></a>
+                <a href="" className="w-[30px] h-[30px]"><img src={coinmarket}alt="" className="" /></a>
+                <a href="" className="w-[30px] h-[30px]"><img src={coingecko} alt="" className="" /></a>
+                <a href="" className="w-[30px] h-[30px]"><img src={snowrace} alt="" className="" /></a>
+            </div>
         </div>
     )
 }
